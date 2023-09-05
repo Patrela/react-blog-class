@@ -1,0 +1,103 @@
+.testimonial-container {
+    width: 90%;
+    height: 378px;
+    margin: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 3px 1px rgb(0 0 0 / 9%);
+}
+.testimonial-image {
+    width: 30%;
+    height: auto;
+}
+.testimonial-image img{
+    width: 70%;
+    height: auto;
+}
+.testimonial-text-container {
+    width: 70%;
+    text-align: center;
+    padding: 2em;
+    font-family: Lato,sans-serif;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+.testimonial-name{
+    font-size: 1.1rem;
+}
+.testimonial-role{
+    font-size: 1.1rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+.testimonial-text{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .testimonial-container {    
+    width: 560px;
+    height: auto;
+    margin: 5px 5px 10px;
+
+    }
+    .testimonial-image {
+        max-height: 100px;       
+    }
+    .testimonial-image img {
+        object-fit: cover;
+        width:100%;
+        height:100%; 
+    }
+    .testimonial-text-container {
+        width: auto;
+        padding: 5px;
+        line-height: 1.2rem;
+    } 
+    .testimonial-role{
+        margin-top: 0.5rem;
+        padding-bottom: 1rem;
+        font-weight: 500;
+    }   
+    h1 {
+        font-size:  1.3em;
+    }
+}
+@media screen and (max-width: 800px) {
+    .testimonial-container {    
+    width: 720px;
+    height: auto;
+    margin: 5px 5px 15px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+    }
+
+    .testimonial-image {
+        max-height: 250px;       
+    }
+    .testimonial-image img {
+        object-fit: cover;
+        width:100%;
+        height:100%; 
+    }    
+    .testimonial-text-container {
+        width: 50%;
+        padding: 5px;
+        line-height: 1.2rem;
+    } 
+    .testimonial-role{
+        margin-top: 0.5rem;
+        padding-bottom: 1rem;
+        font-weight: 500;
+    } 
+    h1 {
+        font-size: 1.3em;
+    }      
+}
