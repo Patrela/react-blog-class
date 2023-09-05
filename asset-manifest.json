@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-blog-class/static/css/main.97bdf006.css",
+    "main.js": "/react-blog-class/static/js/main.756da450.js",
+    "static/media/blog-3.jpg": "/react-blog-class/static/media/blog-3.e4a032008eb6b1fa15de.jpg",
+    "static/media/blog-1.jpg": "/react-blog-class/static/media/blog-1.7cb780059a23ce1561af.jpg",
+    "static/media/blog-2.jpg": "/react-blog-class/static/media/blog-2.acbe794e2536b93cec65.jpg",
+    "index.html": "/react-blog-class/index.html",
+    "main.97bdf006.css.map": "/react-blog-class/static/css/main.97bdf006.css.map",
+    "main.756da450.js.map": "/react-blog-class/static/js/main.756da450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97bdf006.css",
+    "static/js/main.756da450.js"
+  ]
+}
